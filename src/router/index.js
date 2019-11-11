@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const home = () => import ('../view/home/home')
-const cart = () => import ('../view/cart/cart')
-const categery = () => import ('../view/categery/categery')
-const profile = () => import ('../view/profile/profile')
+const home = () => import ('views/home/home')
+const cart = () => import ('views/cart/cart')
+const categery = () => import ('views/categery/categery')
+const profile = () => import ('views/profile/profile')
 
 export default new Router({
   routes: [
